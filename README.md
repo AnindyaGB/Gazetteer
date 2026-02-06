@@ -20,17 +20,38 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Gazetteer
+Gazetteer is an interactive geospatial web application that allows users to explore countries worldwide and view real-time geographic, demographic, and weather data. 
 
-To learn more about Next.js, take a look at the following resources:
+✨ Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://gazetteer.anindyab.dev/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+(Note you can also access this through https://anindyab.dev/gazetteer however that method will be depreciated soon when all gazetteer code is removed from https://github.com/AnindyaGB/Portfolio)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Framework: React, Next.js
+
+Language: JavaScript
+
+Styling: Bootstrap, css-modules
+
+Map Technology: Leaflet
+
+Deployment: Vercel
+
+🚀 Features
+
+● Implemented dynamic data fetching from multiple public APIs and normalized responses for 
+consistent UI rendering.
+
+● Integrated Leaflet maps with custom markers, layers, and popups to visualize country-specific information.
+
+● Designed and developed a responsive user interface optimized for desktop and mobile devices.
+
+● Structured the application using reusable React components and modern JavaScript patterns.
+
+● Deployed and hosted the application on Vercel with production build configuration and 
+environment variables. 
